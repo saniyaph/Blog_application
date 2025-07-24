@@ -3,6 +3,9 @@ include 'db.php';
 
 $user_id = $_SESSION['id'];
 $result = $conn->query('select blogs.*, users.username from blogs inner join users on blogs.user_id=users.id');
+if (!isset($user_id)) {
+    header('Location:login.php');
+}
 ?>
 
 <!doctype html>

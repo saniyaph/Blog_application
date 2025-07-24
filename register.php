@@ -93,7 +93,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                         <label for="name">Name</label>
                     </div>
                     <div class="form-floating mb-3">
-                        <input type="text" class="form-control" name="age" id="name" placeholder="Name" />
+                        <input type="text" class="form-control" name="age" id="age" placeholder="Name" />
                         <label for="name">Age</label>
                     </div>
 
